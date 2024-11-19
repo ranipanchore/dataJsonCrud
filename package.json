@@ -1,0 +1,19 @@
+{
+  "name": "datajsoncrud",
+  "version": "1.0.0",
+  "description": "<!-- create data.json file with empty array -->\r <!-- create server.js file -->\r <!-- after server started read and write file from fs module -->\r <!-- after that create api for get data and save data and update data -->\r #npm init -y",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
